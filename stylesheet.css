@@ -1,0 +1,49 @@
+* {
+ font: 15px "Century Gothic", sans-serif;
+ padding: 0;
+ margin: 0;
+ border: 0;
+}
+header {
+ position: relative;
+}
+h1 {
+ font: 36px  "Century Gothic", sans-serif;
+}
+span {
+ width: 726px;
+ height: 43px;
+ background: linear-gradient(90deg, transparent, white, white);
+ position: absolute;
+ top: 0;
+ left: -363px;
+ animation-name: fadeIn;
+ animation-duration: 5s;
+ animation-fill-mode: forwards;
+}
+@keyframes fadeIn {
+ from {left: -363px;}
+ to {left: 363px;}
+}
+#browseWrapper, #outputWrapper {
+ padding: 0 15px 15px 15px;
+}
+#browse{
+ border: 1px solid grey;
+ border-radius: 5px;
+ padding: 11px 15px;
+}
+#output {
+ border: 1px solid grey;
+ border-radius: 5px;
+ border-collapse: separate;
+ border-spacing: 15px;
+}
+a {
+ display: inline-block;
+ margin: 4px 10px 0 0;
+	cursor: pointer;
+}
+th {
+ border-bottom: 1px solid grey;
+}
